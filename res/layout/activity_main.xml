@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRecView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnToast"
+            android:text="Toast"
+            style="@style/btnMenu" />
+
+        <Button
+            android:id="@+id/btnSort1"
+            android:text="Sort 1"
+            style="@style/btnMenu" />
+
+        <Button
+            android:id="@+id/btnFill1"
+            android:text="Fill 1"
+            style="@style/btnMenu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:text="Delete"
+            style="@style/btnMenu" />
+
+        <Button
+            android:id="@+id/btnSort2"
+            android:text="Sort 2"
+            style="@style/btnMenu" />
+
+        <Button
+            android:id="@+id/btnFill2"
+            android:text="Fill 2"
+            style="@style/btnMenu" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
